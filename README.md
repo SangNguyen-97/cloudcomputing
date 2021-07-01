@@ -10,7 +10,7 @@ Frankfurt University of Applied Sciences
 # VNGroup: ML19/20-5.12. Investigate SpatialPooler's noise robustnes against Additive Gaussian Noise
 
 ## Experiment Description
-Our experiment deals with the investigation of Hierarchical-Temporal-Memory (HTM) Spatial Pooler (SP)'s robustness against Additive Gaussian Noise. The experiment consists of two phases: training and testing.
+Our experiment deals with the investigation of Hierarchical-Temporal-Memory (HTM) [1] Spatial Pooler (SP)'s robustness against Additive Gaussian Noise. The experiment consists of two phases: training and testing.
 
 In training phase, the SP is trained with a noise-free input file. Specifically, a training file describing the fluctuation of a sinusoidal waveform is first encoded by HTM Encoder and then fed to the SP (with common settings specified in the document linked below). The final output representing the column distribution of the SP's output with noise-free input after training phase is recorded.
 
@@ -22,20 +22,20 @@ By comparing the noise-free and noisy output files, some conclusions about robus
 
 Following is the overview structure of the experiment:
 
-![Experiment overview](https://github.com/UniversityOfAppliedSciencesFrankfurt/se-cloud-2019-2020/blob/VNGroup/Images/CC%20Project%20-%20MD%20file/experiment-structure.PNG)
+![Experiment overview](https://github.com/SangNguyen-97/cloudcomputing/blob/main/Documentation/img/experiment-structure.png)
 
 Below are graphical representations of the input data:
 
-![Noise free input](https://github.com/UniversityOfAppliedSciencesFrankfurt/se-cloud-2019-2020/blob/VNGroup/Images/CC%20Project%20-%20MD%20file/noise-free-input.PNG)
-![Noise-level-1 input](https://github.com/UniversityOfAppliedSciencesFrankfurt/se-cloud-2019-2020/blob/VNGroup/Images/CC%20Project%20-%20MD%20file/noise-level-1.PNG)
-![Noise-level-2 input](https://github.com/UniversityOfAppliedSciencesFrankfurt/se-cloud-2019-2020/blob/VNGroup/Images/CC%20Project%20-%20MD%20file/noise-level-2.PNG)
-![Noise-level-3 input](https://github.com/UniversityOfAppliedSciencesFrankfurt/se-cloud-2019-2020/blob/VNGroup/Images/CC%20Project%20-%20MD%20file/noise-level-3.PNG)
+![Noise free input](https://github.com/SangNguyen-97/cloudcomputing/blob/main/Documentation/img/noise-free-input.png)
+![Noise-level-1 input](https://github.com/SangNguyen-97/cloudcomputing/blob/main/Documentation/img/noise-level-1.png)
+![Noise-level-2 input](https://github.com/SangNguyen-97/cloudcomputing/blob/main/Documentation/img/noise-level-2.png)
+![Noise-level-3 input](https://github.com/SangNguyen-97/cloudcomputing/blob/main/Documentation/img/noise-level-3.png)
 
 And here are the output of the experiment for the above respective inputs:
 
-![Noise-level-1 output](https://github.com/UniversityOfAppliedSciencesFrankfurt/se-cloud-2019-2020/blob/VNGroup/Images/CC%20Project%20-%20MD%20file/output-noise-level-1.PNG)
-![Noise-level-2 output](https://github.com/UniversityOfAppliedSciencesFrankfurt/se-cloud-2019-2020/blob/VNGroup/Images/CC%20Project%20-%20MD%20file/output-noise-level-2.PNG)
-![Noise-level-3 output](https://github.com/UniversityOfAppliedSciencesFrankfurt/se-cloud-2019-2020/blob/VNGroup/Images/CC%20Project%20-%20MD%20file/output-noise-level-3.PNG)
+![Noise-level-1 output](https://github.com/SangNguyen-97/cloudcomputing/blob/main/Documentation/img/output-noise-level-1.png)
+![Noise-level-2 output](https://github.com/SangNguyen-97/cloudcomputing/blob/main/Documentation/img/output-noise-level-2.png)
+![Noise-level-3 output](https://github.com/SangNguyen-97/cloudcomputing/blob/main/Documentation/img/output-noise-level-3.png)
 
 The meaning of these outputs can be roughly described as follow: The higher the values at every point in one output are (i.e. the more blue area the graph has), the more similar the outputs (from noise-free and noisy input) of the trained SP are, thus the more robust the SP is.
 
@@ -182,3 +182,6 @@ Azure Table entity for experiment result's format explanation:
 10. **inputFileUriRobustness, inputFileUriSpecificity** : URI of the Azure Blob Storage blob, which is used as the testing file for the experiment. This is the URI of the blob, whose name is specified at "inputFile" key from the Azure Queue experiment request message and whose Azure Blob Storage container is specified at "TrainingContainer" key in "appsettings.json".
 11. **outputFileUriRobustness, outputFileUriSpecificity** : URI of the Azure Blob Storage blob, which is uploaded as the output file of the experiment. This is the URI of the blob, whose name is specified at "outputFile" key from the Azure Queue experiment request message and whose Azure Blob Storage container is specified at "ResultContainer" key in "appsettings.json".
 12. **trainingFileUriRobustness, trainingFileUriSpecificity** : URI of the Azure Blob Storage blob, which is used as the training file for the experiment. This is the URI of the blob, whose name is specified at "trainingFile" key from the Azure Queue experiment request message and whose Azure Blob Storage container is specified at "TrainingContainer" key in "appsettings.json".
+
+# Reference
+[1] https://numenta.com/
