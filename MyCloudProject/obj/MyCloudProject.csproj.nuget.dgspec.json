@@ -1,0 +1,279 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\USER\\source\\repos\\New_CC_SangNguyen\\Source\\MyCloudProject\\MyCloudProject\\MyCloudProject.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\USER\\source\\repos\\New_CC_SangNguyen\\Source\\MyCloudProject\\MyCloudProject.Common\\MyCloudProject.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\USER\\source\\repos\\New_CC_SangNguyen\\Source\\MyCloudProject\\MyCloudProject.Common\\MyCloudProject.Common.csproj",
+        "projectName": "MyCloudProject.Common",
+        "projectPath": "C:\\Users\\USER\\source\\repos\\New_CC_SangNguyen\\Source\\MyCloudProject\\MyCloudProject.Common\\MyCloudProject.Common.csproj",
+        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\USER\\source\\repos\\New_CC_SangNguyen\\Source\\MyCloudProject\\MyCloudProject.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\USER\\source\\repos\\New_CC_SangNguyen\\Source\\MyCloudProject\\NuGet.Config",
+          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\USER\\source\\repos\\New_CC_SangNguyen\\Source\\MyCloudProject\\nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "dependencies": {
+            "Microsoft.Azure.Cosmos.Table": {
+              "target": "Package",
+              "version": "[1.0.7, )"
+            },
+            "Microsoft.Azure.Storage.Queue": {
+              "target": "Package",
+              "version": "[11.1.7, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
+            "Microsoft.Extensions.Configuration.CommandLine": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
+            "Microsoft.Extensions.Configuration.EnvironmentVariables": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
+            "Microsoft.Extensions.Logging.Console": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
+            "Microsoft.Extensions.Logging.Debug": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\USER\\source\\repos\\New_CC_SangNguyen\\Source\\MyCloudProject\\MyCloudProject\\MyCloudProject.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\USER\\source\\repos\\New_CC_SangNguyen\\Source\\MyCloudProject\\MyCloudProject\\MyCloudProject.csproj",
+        "projectName": "MyCloudProject",
+        "projectPath": "C:\\Users\\USER\\source\\repos\\New_CC_SangNguyen\\Source\\MyCloudProject\\MyCloudProject\\MyCloudProject.csproj",
+        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\USER\\source\\repos\\New_CC_SangNguyen\\Source\\MyCloudProject\\MyCloudProject\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\USER\\source\\repos\\New_CC_SangNguyen\\Source\\MyCloudProject\\NuGet.Config",
+          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\USER\\source\\repos\\New_CC_SangNguyen\\Source\\MyCloudProject\\nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\USER\\source\\repos\\New_CC_SangNguyen\\Source\\MyCloudProject\\MyCloudProject.Common\\MyCloudProject.Common.csproj": {
+                "projectPath": "C:\\Users\\USER\\source\\repos\\New_CC_SangNguyen\\Source\\MyCloudProject\\MyCloudProject.Common\\MyCloudProject.Common.csproj"
+              },
+              "C:\\Users\\USER\\source\\repos\\New_CC_SangNguyen\\Source\\MyCloudProject\\MyExperiment\\MyExperiment.csproj": {
+                "projectPath": "C:\\Users\\USER\\source\\repos\\New_CC_SangNguyen\\Source\\MyCloudProject\\MyExperiment\\MyExperiment.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.10.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\USER\\source\\repos\\New_CC_SangNguyen\\Source\\MyCloudProject\\MyExperiment\\MyExperiment.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\USER\\source\\repos\\New_CC_SangNguyen\\Source\\MyCloudProject\\MyExperiment\\MyExperiment.csproj",
+        "projectName": "MyExperiment",
+        "projectPath": "C:\\Users\\USER\\source\\repos\\New_CC_SangNguyen\\Source\\MyCloudProject\\MyExperiment\\MyExperiment.csproj",
+        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\USER\\source\\repos\\New_CC_SangNguyen\\Source\\MyCloudProject\\MyExperiment\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\USER\\source\\repos\\New_CC_SangNguyen\\Source\\MyCloudProject\\NuGet.Config",
+          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\USER\\source\\repos\\New_CC_SangNguyen\\Source\\MyCloudProject\\nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\USER\\source\\repos\\New_CC_SangNguyen\\Source\\MyCloudProject\\MyCloudProject.Common\\MyCloudProject.Common.csproj": {
+                "projectPath": "C:\\Users\\USER\\source\\repos\\New_CC_SangNguyen\\Source\\MyCloudProject\\MyCloudProject.Common\\MyCloudProject.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "AkkaHostLib": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "Azure.Storage.Blobs": {
+              "target": "Package",
+              "version": "[12.4.4, )"
+            },
+            "DistributedComputeLib": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "HtmAkkaHost": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "LearningApi": {
+              "target": "Package",
+              "version": "[1.3.1, )"
+            },
+            "Microsoft.Azure.Cosmos.Table": {
+              "target": "Package",
+              "version": "[1.0.7, )"
+            },
+            "NeoCortexApi": {
+              "target": "Package",
+              "version": "[1.0.7, )"
+            },
+            "NeoCortexArrayLib": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "NeoCortexEntities": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "NeoCortexUtils": {
+              "target": "Package",
+              "version": "[1.0.0.1, )"
+            },
+            "NeuralNet.MLPerceptron": {
+              "target": "Package",
+              "version": "[1.2.2, )"
+            },
+            "NeuralNetworks.Core": {
+              "target": "Package",
+              "version": "[1.2.1, )"
+            },
+            "WebSocketNeuroVisualizer": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,4 @@
+C:\Users\USER\source\repos\New_CC_SangNguyen\Source\MyCloudProject\MyExperiment\bin\Debug\netstandard2.1\MyCloudProject.Common.dll
+C:\Users\USER\source\repos\New_CC_SangNguyen\Source\MyCloudProject\MyExperiment\obj\Debug\netstandard2.1\MyExperiment.csprojAssemblyReference.cache
+C:\Users\USER\source\repos\New_CC_SangNguyen\Source\MyCloudProject\MyExperiment\obj\Debug\netstandard2.1\MyExperiment.AssemblyInfoInputs.cache
+C:\Users\USER\source\repos\New_CC_SangNguyen\Source\MyCloudProject\MyExperiment\obj\Debug\netstandard2.1\MyExperiment.AssemblyInfo.cs

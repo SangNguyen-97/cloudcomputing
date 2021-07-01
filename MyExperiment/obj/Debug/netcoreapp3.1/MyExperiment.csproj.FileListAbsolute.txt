@@ -1,0 +1,12 @@
+C:\Users\USER\source\repos\New_CC_SangNguyen\Source\MyCloudProject\MyExperiment\bin\Debug\netcoreapp3.1\MyExperiment.deps.json
+C:\Users\USER\source\repos\New_CC_SangNguyen\Source\MyCloudProject\MyExperiment\bin\Debug\netcoreapp3.1\MyExperiment.dll
+C:\Users\USER\source\repos\New_CC_SangNguyen\Source\MyCloudProject\MyExperiment\bin\Debug\netcoreapp3.1\MyExperiment.pdb
+C:\Users\USER\source\repos\New_CC_SangNguyen\Source\MyCloudProject\MyExperiment\bin\Debug\netcoreapp3.1\MyCloudProject.Common.dll
+C:\Users\USER\source\repos\New_CC_SangNguyen\Source\MyCloudProject\MyExperiment\bin\Debug\netcoreapp3.1\MyCloudProject.Common.pdb
+C:\Users\USER\source\repos\New_CC_SangNguyen\Source\MyCloudProject\MyExperiment\obj\Debug\netcoreapp3.1\MyExperiment.csprojAssemblyReference.cache
+C:\Users\USER\source\repos\New_CC_SangNguyen\Source\MyCloudProject\MyExperiment\obj\Debug\netcoreapp3.1\MyExperiment.AssemblyInfoInputs.cache
+C:\Users\USER\source\repos\New_CC_SangNguyen\Source\MyCloudProject\MyExperiment\obj\Debug\netcoreapp3.1\MyExperiment.AssemblyInfo.cs
+C:\Users\USER\source\repos\New_CC_SangNguyen\Source\MyCloudProject\MyExperiment\obj\Debug\netcoreapp3.1\MyExperiment.csproj.CopyComplete
+C:\Users\USER\source\repos\New_CC_SangNguyen\Source\MyCloudProject\MyExperiment\obj\Debug\netcoreapp3.1\MyExperiment.dll
+C:\Users\USER\source\repos\New_CC_SangNguyen\Source\MyCloudProject\MyExperiment\obj\Debug\netcoreapp3.1\MyExperiment.pdb
+C:\Users\USER\source\repos\New_CC_SangNguyen\Source\MyCloudProject\MyExperiment\obj\Debug\netcoreapp3.1\MyExperiment.csproj.CoreCompileInputs.cache

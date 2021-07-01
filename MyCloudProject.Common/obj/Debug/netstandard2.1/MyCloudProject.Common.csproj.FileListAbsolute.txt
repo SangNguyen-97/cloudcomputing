@@ -1,0 +1,9 @@
+C:\Users\USER\source\repos\New_CC_SangNguyen\Source\MyCloudProject\MyCloudProject.Common\bin\Debug\netstandard2.1\MyCloudProject.Common.deps.json
+C:\Users\USER\source\repos\New_CC_SangNguyen\Source\MyCloudProject\MyCloudProject.Common\bin\Debug\netstandard2.1\MyCloudProject.Common.dll
+C:\Users\USER\source\repos\New_CC_SangNguyen\Source\MyCloudProject\MyCloudProject.Common\bin\Debug\netstandard2.1\MyCloudProject.Common.pdb
+C:\Users\USER\source\repos\New_CC_SangNguyen\Source\MyCloudProject\MyCloudProject.Common\obj\Debug\netstandard2.1\MyCloudProject.Common.AssemblyInfoInputs.cache
+C:\Users\USER\source\repos\New_CC_SangNguyen\Source\MyCloudProject\MyCloudProject.Common\obj\Debug\netstandard2.1\MyCloudProject.Common.AssemblyInfo.cs
+C:\Users\USER\source\repos\New_CC_SangNguyen\Source\MyCloudProject\MyCloudProject.Common\obj\Debug\netstandard2.1\MyCloudProject.Common.csproj.CoreCompileInputs.cache
+C:\Users\USER\source\repos\New_CC_SangNguyen\Source\MyCloudProject\MyCloudProject.Common\obj\Debug\netstandard2.1\MyCloudProject.Common.dll
+C:\Users\USER\source\repos\New_CC_SangNguyen\Source\MyCloudProject\MyCloudProject.Common\obj\Debug\netstandard2.1\MyCloudProject.Common.pdb
+C:\Users\USER\source\repos\New_CC_SangNguyen\Source\MyCloudProject\MyCloudProject.Common\obj\Debug\netstandard2.1\MyCloudProject.Common.csprojAssemblyReference.cache
